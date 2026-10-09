@@ -1,46 +1,37 @@
-# Hi, I'm Mahesh Bhattarai 👋
+# Mahesh Bhattarai
+### IT Professional | Systems Analysis • IT Operations • Data & Development
 
-**IT Professional | Systems • Data • Development**
+I connect technical problem-solving with clear documentation and practical business needs. My interests span systems analysis, IT operations, data, and application development.
 
-I enjoy figuring out how technology works, solving practical problems, and turning ideas into tools people can understand and use.
+I earned a **B.S. in Information Technology from Penn State University College** and am building a project portfolio that demonstrates how I approach problems, organize information, and turn requirements into workable solutions.
 
-I hold a **B.S. in Information Technology from Penn State University College**. My interests include systems analysis, IT operations, data, and application development—especially where technology and real-world business needs meet.
+**Working style:** Understand the problem. Choose a practical approach. Explain the result clearly.
 
-> Practical solutions. Clear documentation. Curiosity included.
+## Professional Focus
 
-## 🧰 Areas I Work With
+- **Systems & IT Operations** — troubleshooting, understanding workflows, and documenting processes
+- **Data & Databases** — SQL practice, relational database concepts, and structured analysis
+- **Application Development** — Java, JavaScript, Python learning projects, and web fundamentals
+- **Technical Foundations** — Linux fundamentals and hands-on networking/security lab experience
 
-- **Programming:** Java, JavaScript, and Python learning projects
-- **Web:** HTML, CSS, responsive layout, and front-end experiments
-- **Data:** SQL, relational database concepts, and query practice
-- **IT & Systems:** Technical troubleshooting, Linux fundamentals, and hands-on networking/security lab experience
+## Portfolio
 
-I aim to represent my skills honestly: the repositories show the examples and projects behind these areas, and I continue to build on them.
+I'm developing focused, documented projects to demonstrate my skills in context. I prefer to show what a project actually does, how to run it, and what still needs improvement rather than overstate its capabilities.
 
-## 🚀 Projects & Practice
+- **[Web-Design repository](https://github.com/maheshbh1/Web-Design)** — a learning archive of HTML, CSS, JavaScript, Node.js, SQL exercises, and website experiments. It includes practice work as well as larger front-end concepts; it is not presented as a production application.
 
-### [Web Design & Development Practice](https://github.com/maheshbh1/Web-Design)
-A collection of HTML, CSS, JavaScript, Node.js, and SQL exercises, along with front-end experiments and multi-page website concepts.
+As projects are refined, this profile will prioritize complete examples with clear goals, setup instructions, and documented results.
 
-### [Steel City Sports — Front-End Prototype](https://github.com/maheshbh1/Web-Design/tree/main/Web%20Design%20Projects/Steel%20City%20Sports)
-A Pittsburgh sports merchandise storefront concept exploring linked pages, product layouts, sample cart pages, and a customer-information form. This is a static learning prototype—not a live store or payment system.
+## How I Work
 
-More focused projects will be added as they are refined and documented.
+- Start with the problem and the people affected by it.
+- Keep code and documentation understandable.
+- Separate implemented features from future improvements.
+- Be honest about limitations and verify results.
+- Keep learning without confusing a long list of technologies with real capability.
 
-## 💡 How I Approach Problems
-
-- Understand the problem before choosing the tool.
-- Keep code and project structure readable.
-- Explain technical decisions in plain English.
-- Distinguish working features from future ideas.
-- Document limitations instead of pretending everything is perfect.
-
-I like technology that makes complicated tasks feel a little less complicated. If it can be useful, understandable, and maintainable, we're on the right track.
-
-## 🎯 Current Focus
-
-Building practical portfolio projects that connect systems thinking, data, and software development—while strengthening my ability to explain not just **what** I built, but **why** I built it and how it works.
+I like useful technology, clean explanations, and creative problem-solving. A little humor is welcome; confusing documentation is not.
 
 ---
 
-*Curiosity starts the project. Testing improves it. Documentation helps the next person.*
+*Practical solutions. Clear documentation. Curiosity included.*
