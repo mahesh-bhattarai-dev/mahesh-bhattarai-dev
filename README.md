@@ -18,7 +18,7 @@ I earned a **B.S. in Information Technology from Penn State University College**
 
 I'm developing focused, documented projects to demonstrate my skills in context. I prefer to show what a project actually does, how to run it, and what still needs improvement rather than overstate its capabilities.
 
-- **[Web-Design repository](https://github.com/maheshbh1/Web-Design)** — a learning archive of HTML, CSS, JavaScript, Node.js, SQL exercises, and website experiments. It includes practice work as well as larger front-end concepts; it is not presented as a production application.
+- **[Web-Design repository](https://github.com/mahesh-bhattarai-dev/Web-Design)** — a learning archive of HTML, CSS, JavaScript, Node.js, SQL exercises, and website experiments. It includes practice work as well as larger front-end concepts; it is not presented as a production application.
 
 As projects are refined, this profile will prioritize complete examples with clear goals, setup instructions, and documented results.
 
