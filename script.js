@@ -78,14 +78,13 @@
         <div class="content-panel"><strong>GitHub:</strong><br><a href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">github.com/mahesh-bhattarai-dev ↗</a></div>
         <p>I’m always glad to discuss a useful problem, a thoughtful project, or a better way to document a process.</p>`
     },
-    ceo: {
-      number: "10 / CEO office", title: "The roadmap is ambitious. The budget is mostly coffee.",
+    ideas: {
+      number: "10 / The Idea Lab", title: "The ideas are ambitious. The budget is mostly coffee.",
       html: `
-        <p>Welcome to the executive suite of a one-person company with a suspiciously large number of ideas.</p>
-        <h3>Mission</h3><p>Make technology more useful, make information easier to understand, and keep learning along the way.</p>
-        <h3>Current departments</h3><ul><li><strong>Engineering:</strong> “It works on my machine” is a starting point, not a deployment strategy.</li><li><strong>Research:</strong> opening one documentation tab and somehow ending up with fourteen.</li><li><strong>Finance:</strong> latte budget under review.</li><li><strong>Human resources:</strong> one employee; several competing internal committees.</li></ul>
-        <div class="content-panel"><strong>Quarterly objective:</strong> build fewer things halfway, finish more small things properly, and remember to take a break.</div>
-        <p><em>All jokes aside: I take the work seriously. The number of features in my side projects? That’s a separate discussion. 😄</em></p>`
+        <p>A little corner for experiments, side projects, and the occasional idea that grows three extra features before lunch.</p>
+        <h3>What happens in the lab?</h3><ul><li><strong>Build:</strong> turn a concept into a small, working example.</li><li><strong>Explore:</strong> follow a question through documentation, testing, and a few extra browser tabs.</li><li><strong>Improve:</strong> revisit what works, fix what doesn't, and make the result easier to understand.</li></ul>
+        <div class="content-panel"><strong>Current experiment:</strong> finish more small projects properly instead of giving every new idea a full roadmap on day one.</div>
+        <p>There may be a latte nearby. There will probably be debugging. And if a project gets one feature more than it needs, well—that's part of the learning process. 😄</p>`
     }
   };
 
