@@ -3,126 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mahesh Bhattarai's interactive portfolio: IT, systems thinking, projects, learning, and creative problem-solving.">
-  <title>Mahesh OS | Mahesh Bhattarai</title>
+  <meta name="description" content="Mahesh Bhattarai's portfolio: information technology, systems thinking, projects, learning, and creative problem-solving.">
+  <meta name="theme-color" content="#f8f3e8">
+  <title>Mahesh Bhattarai | Curious Mind, Creative Builds</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] } } } };
-  </script>
-  <style>
-    body { font-family: Inter, sans-serif; background: radial-gradient(circle at 15% 15%, #24205b 0, transparent 35%), radial-gradient(circle at 90% 80%, #312052 0, transparent 30%), #0b1020; }
-    .glass { background: rgba(15, 23, 42, .82); border: 1px solid rgba(148, 163, 184, .22); box-shadow: 0 18px 60px rgba(0,0,0,.24); backdrop-filter: blur(18px); }
-    .nav-link { transition: background .2s, color .2s; }
-    .nav-link:hover, .nav-link:focus-visible { background: rgba(99,102,241,.2); color: white; outline: none; }
-    .dot { box-shadow: 0 0 12px currentColor; }
-    .section { scroll-margin-top: 6rem; }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
-<body class="min-h-screen text-slate-100 selection:bg-indigo-500/40">
-  <header class="sticky top-0 z-30 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
-    <nav class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6" aria-label="Main navigation">
-      <a href="#home" class="flex shrink-0 items-center gap-2 font-bold tracking-tight"><span class="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600">M</span><span>Mahesh <span class="text-indigo-300">OS</span></span></a>
-      <div class="flex max-w-full items-center gap-1 overflow-x-auto text-sm text-slate-300">
-        <a class="nav-link rounded-lg px-3 py-2" href="#about">About</a>
-        <a class="nav-link rounded-lg px-3 py-2" href="#career">Career</a>
-        <a class="nav-link rounded-lg px-3 py-2" href="#projects">Projects</a>
-        <a class="nav-link rounded-lg px-3 py-2" href="#learning">Learning</a>
-      </div>
-    </nav>
-  </header>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Portfolio sidebar">
+      <a class="brand" href="#overview" aria-label="Mahesh Bhattarai portfolio home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span><span class="brand-name">Mahesh Bhattarai</span><span class="brand-subtitle">IT · Systems · Creative builds</span></span>
+      </a>
+      <div class="nav-label">Explore my world</div>
+      <nav class="nav-list" aria-label="Main navigation">
+        <button class="nav-item" type="button" data-nav="overview" aria-current="page"><span class="nav-icon" aria-hidden="true">⌂</span> Overview</button>
+        <button class="nav-item" type="button" data-nav="about"><span class="nav-icon" aria-hidden="true">☻</span> About me</button>
+        <button class="nav-item" type="button" data-nav="career"><span class="nav-icon" aria-hidden="true">▤</span> Career</button>
+        <button class="nav-item" type="button" data-nav="learning"><span class="nav-icon" aria-hidden="true">✳</span> Learning</button>
+        <button class="nav-item" type="button" data-nav="creative"><span class="nav-icon" aria-hidden="true">✎</span> Creative</button>
+        <button class="nav-item" type="button" data-nav="adventure"><span class="nav-icon" aria-hidden="true">⌁</span> Adventure</button>
+        <button class="nav-item" type="button" data-nav="values"><span class="nav-icon" aria-hidden="true">♡</span> Values</button>
+        <button class="nav-item" type="button" data-nav="technology"><span class="nav-icon" aria-hidden="true">⌘</span> Technology</button>
+        <button class="nav-item" type="button" data-nav="projects"><span class="nav-icon" aria-hidden="true">▣</span> My projects</button>
+        <button class="nav-item" type="button" data-nav="connect"><span class="nav-icon" aria-hidden="true">↗</span> Let's connect</button>
+        <button class="nav-item" type="button" data-nav="ceo"><span class="nav-icon" aria-hidden="true">☕</span> CEO office</button>
+      </nav>
+      <div class="sidebar-note"><strong>Current operating principle</strong>Understand the problem. Choose a practical approach. Explain the result clearly.</div>
+      <div class="sidebar-links"><a href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://github.com/mahesh-bhattarai-dev/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">Source code ↗</a></div>
+    </aside>
 
-  <main id="home" class="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-20">
-    <section class="grid items-center gap-10 lg:grid-cols-[1.15fr_.85fr]">
-      <div>
-        <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1.5 text-xs font-medium text-emerald-200"><span class="dot h-2 w-2 rounded-full bg-emerald-400"></span> Curious mind · Practical builder</div>
-        <p class="mb-3 text-sm font-semibold uppercase tracking-[.25em] text-indigo-300">Welcome to my corner of the internet</p>
-        <h1 class="text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl">Hi, I'm Mahesh.<br><span class="bg-gradient-to-r from-indigo-300 via-violet-300 to-sky-300 bg-clip-text text-transparent">I make tech useful.</span></h1>
-        <p class="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">I connect technical problem-solving with clear documentation and practical business needs. My interests span systems analysis, IT operations, data, and application development.</p>
-        <div class="mt-8 flex flex-wrap gap-3">
-          <a href="#projects" class="rounded-xl bg-indigo-500 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-950/40 transition hover:bg-indigo-400">Explore projects <span aria-hidden="true">↘</span></a>
-          <a href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer" class="rounded-xl border border-slate-600 px-5 py-3 text-sm font-semibold text-slate-100 transition hover:border-indigo-300 hover:bg-white/5">GitHub profile ↗</a>
+    <main id="main" class="main-content">
+      <div class="topline"><span>PERSONAL PORTFOLIO / VERSION 1.0</span><span class="status-pill"><span class="status-dot" aria-hidden="true"></span> Always learning</span></div>
+      <section id="overview" aria-labelledby="hero-title">
+        <div class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow">Curious mind · Practical builder</div>
+            <h1 id="hero-title">Curious Mind.<br><span>Creative Builds.</span></h1>
+            <p class="hero-lead">I connect technical problem-solving with clear documentation and practical business needs. My interests span systems analysis, IT operations, data, and application development.</p>
+            <p class="hero-joke">I take the work seriously. The number of features in my side projects? That's a separate discussion. 😄</p>
+            <div class="hero-actions">
+              <button class="button button-primary" type="button" data-section="projects">Explore my projects <span aria-hidden="true">↘</span></button>
+              <a class="button button-secondary" href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">Visit GitHub ↗</a>
+            </div>
+          </div>
+          <div class="hero-board" aria-label="A snapshot of how I work">
+            <div class="board-top"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>mahesh-os / dashboard</span></div>
+            <div class="board-grid">
+              <div class="mini-card"><span class="mini-icon" aria-hidden="true">⌘</span><strong>Systems thinker</strong><p>Make workflows clearer and more useful.</p></div>
+              <div class="mini-card"><span class="mini-icon" aria-hidden="true">⌁</span><strong>Data curious</strong><p>Ask good questions. Check the details.</p></div>
+              <div class="mini-card"><span class="mini-icon" aria-hidden="true">✳</span><strong>Creative builder</strong><p>Mix structure with imagination.</p></div>
+              <div class="mini-card"><span class="mini-icon" aria-hidden="true">☕</span><strong>Coffee powered</strong><p>Occasionally debugging before the latte.</p></div>
+            </div>
+            <p class="board-principle"><strong>Operating principle:</strong> Understand the problem. Choose a practical approach. Explain the result clearly.</p>
+          </div>
         </div>
-        <div class="mt-8 flex flex-wrap gap-2 text-xs text-slate-300">
-          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1.5">SQL & databases</span>
-          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1.5">Python</span>
-          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1.5">IT operations</span>
-          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1.5">Process improvement</span>
-        </div>
-      </div>
-      <div class="glass rounded-3xl p-5 sm:p-7">
-        <div class="mb-6 flex items-center justify-between border-b border-white/10 pb-4">
-          <div class="flex gap-2"><span class="h-3 w-3 rounded-full bg-rose-400"></span><span class="h-3 w-3 rounded-full bg-amber-300"></span><span class="h-3 w-3 rounded-full bg-emerald-400"></span></div>
-          <span class="text-xs text-slate-400">mahesh-os / dashboard</span>
-        </div>
-        <div class="grid grid-cols-2 gap-3">
-          <div class="rounded-2xl border border-indigo-300/15 bg-indigo-400/10 p-4"><p class="text-2xl">⌘</p><p class="mt-3 text-sm font-semibold">Systems thinker</p><p class="mt-1 text-xs leading-5 text-slate-400">Make workflows clearer and more useful.</p></div>
-          <div class="rounded-2xl border border-sky-300/15 bg-sky-400/10 p-4"><p class="text-2xl">⌁</p><p class="mt-3 text-sm font-semibold">Data curious</p><p class="mt-1 text-xs leading-5 text-slate-400">Ask good questions. Check the details.</p></div>
-          <div class="rounded-2xl border border-violet-300/15 bg-violet-400/10 p-4"><p class="text-2xl">✳</p><p class="mt-3 text-sm font-semibold">Creative builder</p><p class="mt-1 text-xs leading-5 text-slate-400">Mix structure with imagination.</p></div>
-          <div class="rounded-2xl border border-emerald-300/15 bg-emerald-400/10 p-4"><p class="text-2xl">☕</p><p class="mt-3 text-sm font-semibold">Coffee powered</p><p class="mt-1 text-xs leading-5 text-slate-400">Occasionally debugging before the latte.</p></div>
-        </div>
-        <p class="mt-5 rounded-xl border border-white/10 bg-slate-950/50 p-4 text-sm text-slate-300"><span class="font-semibold text-indigo-200">Operating principle:</span> Understand the problem. Choose a practical approach. Explain the result clearly.</p>
-      </div>
-    </section>
+      </section>
 
-    <section id="about" class="section mt-20 grid gap-6 md:grid-cols-2">
-      <div class="glass rounded-3xl p-6 sm:p-8">
-        <p class="text-xs font-semibold uppercase tracking-[.22em] text-indigo-300">01 / About</p>
-        <h2 class="mt-3 text-2xl font-bold">A practical mind with a creative side.</h2>
-        <p class="mt-4 leading-7 text-slate-300">I earned a B.S. in Information Technology from Penn State and an A.S. in Software Development from CCAC. I enjoy learning how systems work, documenting processes, solving technical problems, and making ideas easier to understand.</p>
-        <p class="mt-3 leading-7 text-slate-300">My approach is simple: stay curious, keep things understandable, and be honest about what works—and what still needs improvement.</p>
-      </div>
-      <div id="career" class="section glass rounded-3xl p-6 sm:p-8">
-        <p class="text-xs font-semibold uppercase tracking-[.22em] text-indigo-300">02 / Career focus</p>
-        <h2 class="mt-3 text-2xl font-bold">Where I want to contribute</h2>
-        <div class="mt-5 space-y-4">
-          <div><h3 class="font-semibold text-white">Systems & IT Operations</h3><p class="mt-1 text-sm leading-6 text-slate-400">Troubleshooting, workflow understanding, technical documentation, and process improvement.</p></div>
-          <div><h3 class="font-semibold text-white">Data & Databases</h3><p class="mt-1 text-sm leading-6 text-slate-400">SQL practice, relational database concepts, structured analysis, and reporting.</p></div>
-          <div><h3 class="font-semibold text-white">Application Development</h3><p class="mt-1 text-sm leading-6 text-slate-400">Web fundamentals and learning projects in JavaScript and Python, alongside Java experience.</p></div>
-        </div>
-      </div>
-    </section>
+      <div class="section-heading"><div><div class="eyebrow">The quick tour</div><h2>A few windows into my world</h2></div><p>Professional interests up front, creative details around the edges. Pick a card to open a little more.</p></div>
+      <section class="card-grid" aria-label="Portfolio sections">
+        <button class="feature-card tone-blue" type="button" data-section="about"><span class="card-top"><span class="card-icon" aria-hidden="true">☻</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>About me</h3><p>My background, education, and how I approach problems.</p><span class="card-tag">The person behind the projects</span></button>
+        <button class="feature-card tone-peach" type="button" data-section="career"><span class="card-top"><span class="card-icon" aria-hidden="true">▤</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Career direction</h3><p>Systems, IT operations, data, and application support.</p><span class="card-tag">Where I can contribute</span></button>
+        <button class="feature-card tone-lavender" type="button" data-section="learning"><span class="card-top"><span class="card-icon" aria-hidden="true">✳</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Learning lab</h3><p>Turning concepts into practical, testable examples.</p><span class="card-tag">Always a work in progress</span></button>
+        <button class="feature-card tone-mint" type="button" data-section="creative"><span class="card-top"><span class="card-icon" aria-hidden="true">✎</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Creative side</h3><p>Playful interfaces, wordplay, and fresh ways to explain ideas.</p><span class="card-tag">Logic with a little imagination</span></button>
+        <button class="feature-card tone-blue" type="button" data-section="adventure"><span class="card-top"><span class="card-icon" aria-hidden="true">⌁</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Adventure</h3><p>Scenic drives, bridges, rivers, waterfalls, and city views.</p><span class="card-tag">Curiosity beyond the screen</span></button>
+        <button class="feature-card tone-yellow" type="button" data-section="values"><span class="card-top"><span class="card-icon" aria-hidden="true">♡</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Values & approach</h3><p>Clarity, integrity, learning, and people-first technology.</p><span class="card-tag">How I like to work</span></button>
+        <button class="feature-card tone-lavender" type="button" data-section="technology"><span class="card-top"><span class="card-icon" aria-hidden="true">⌘</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Technology</h3><p>Languages, technical foundations, and hands-on learning.</p><span class="card-tag">Tools, not buzzwords</span></button>
+        <button class="feature-card tone-peach" type="button" data-section="projects"><span class="card-top"><span class="card-icon" aria-hidden="true">▣</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>My projects</h3><p>Code, experiments, and what each project is teaching me.</p><span class="card-tag">Show the work</span></button>
+        <button class="feature-card tone-mint" type="button" data-section="connect"><span class="card-top"><span class="card-icon" aria-hidden="true">↗</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Let's connect</h3><p>Explore my work or start a conversation about useful tech.</p><span class="card-tag">Open to good conversations</span></button>
+      </section>
 
-    <section id="projects" class="section mt-20">
-      <div class="flex flex-wrap items-end justify-between gap-4">
-        <div><p class="text-xs font-semibold uppercase tracking-[.22em] text-indigo-300">03 / Selected work</p><h2 class="mt-3 text-3xl font-bold">Projects & experiments</h2></div>
-        <p class="max-w-md text-sm leading-6 text-slate-400">A growing collection. I aim to explain each project's purpose, implementation, and limitations clearly.</p>
-      </div>
-      <div class="mt-7 grid gap-5 md:grid-cols-2">
-        <article class="glass rounded-3xl p-6 transition hover:-translate-y-1 hover:border-indigo-300/40">
-          <div class="flex items-start justify-between gap-3"><span class="rounded-lg bg-indigo-400/15 px-3 py-1.5 text-xs font-semibold text-indigo-200">HTML · CSS · JavaScript</span><span class="text-xl" aria-hidden="true">▣</span></div>
-          <h3 class="mt-5 text-xl font-bold">Web Design Learning Archive</h3>
-          <p class="mt-3 text-sm leading-6 text-slate-300">A collection of front-end practice, web experiments, and exercises across HTML, CSS, JavaScript, Node.js, and SQL.</p>
-          <a class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-indigo-200 hover:text-white" href="https://github.com/mahesh-bhattarai-dev/Web-Design" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="glass rounded-3xl p-6 transition hover:-translate-y-1 hover:border-violet-300/40">
-          <div class="flex items-start justify-between gap-3"><span class="rounded-lg bg-violet-400/15 px-3 py-1.5 text-xs font-semibold text-violet-200">HTML · Tailwind CSS · JavaScript</span><span class="text-xl" aria-hidden="true">⌘</span></div>
-          <h3 class="mt-5 text-xl font-bold">Mahesh OS — Interactive Portfolio</h3>
-          <p class="mt-3 text-sm leading-6 text-slate-300">A playful personal dashboard concept that presents professional interests, learning, and creativity through a desktop-inspired interface.</p>
-          <p class="mt-5 text-xs text-slate-500">This website is the first published version.</p>
-        </article>
-      </div>
-    </section>
+      <div class="section-heading"><div><div class="eyebrow">A few fundamentals</div><h2>What I bring to the table</h2></div></div>
+      <section class="quick-facts" aria-label="Professional snapshot">
+        <div class="fact"><strong>Information Technology</strong><span>Penn State University College · B.S. · 2025</span></div>
+        <div class="fact"><strong>Software Development</strong><span>Community College of Allegheny County · A.S.</span></div>
+        <div class="fact"><strong>Practical problem-solving</strong><span>Documentation, troubleshooting, data quality, and process thinking</span></div>
+      </section>
 
-    <section id="learning" class="section mt-20 grid gap-6 md:grid-cols-[.8fr_1.2fr]">
-      <div><p class="text-xs font-semibold uppercase tracking-[.22em] text-indigo-300">04 / Always learning</p><h2 class="mt-3 text-3xl font-bold">Curiosity is part of the job.</h2><p class="mt-4 leading-7 text-slate-300">I keep building small projects to turn concepts into practice. I prefer a working example and clear documentation over a long list of buzzwords.</p></div>
-      <div class="glass rounded-3xl p-6 sm:p-8"><div class="flex flex-wrap gap-2"><span class="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm">Python</span><span class="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm">SQL</span><span class="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm">Java</span><span class="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm">JavaScript</span><span class="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm">Linux</span><span class="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm">Documentation</span><span class="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm">Data validation</span><span class="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm">Troubleshooting</span></div><p class="mt-6 border-t border-white/10 pt-5 text-sm leading-6 text-slate-400">I list technologies according to my actual experience and keep expanding my skills through hands-on practice.</p></div>
-    </section>
+      <section class="connect-panel" aria-labelledby="connect-heading">
+        <div><div class="eyebrow">One-person company, open door</div><h2 id="connect-heading">Good work starts with a good conversation.</h2><p>Explore my code, follow what I build, or connect about IT, systems, data, and practical technology.</p></div>
+        <a class="button button-primary" href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">Find me on GitHub ↗</a>
+      </section>
 
-    <section class="mt-20 rounded-3xl border border-indigo-300/20 bg-gradient-to-br from-indigo-500/15 to-violet-500/10 p-7 text-center sm:p-10">
-      <p class="text-xs font-semibold uppercase tracking-[.22em] text-indigo-200">Let's connect</p>
-      <h2 class="mt-3 text-3xl font-bold">Good work starts with a good conversation.</h2>
-      <p class="mx-auto mt-4 max-w-2xl leading-7 text-slate-300">Explore my code, follow what I build, or connect with me about IT, systems, data, and practical technology.</p>
-      <a href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer" class="mt-6 inline-flex rounded-xl bg-white px-5 py-3 text-sm font-bold text-slate-900 transition hover:bg-indigo-100">Visit my GitHub ↗</a>
-    </section>
-  </main>
+      <footer class="site-footer"><span>© <span id="year"></span> Mahesh Bhattarai · Built with HTML, CSS, and JavaScript.</span><span>Practical solutions. Clear documentation. Curiosity included.</span></footer>
+    </main>
+  </div>
 
-  <footer class="border-t border-white/10 px-4 py-6 text-center text-xs text-slate-500">
-    <p>© <span id="year"></span> Mahesh Bhattarai · Built with HTML, Tailwind CSS, and JavaScript.</p>
-    <p class="mt-2">Practical solutions. Clear documentation. Curiosity included.</p>
-  </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div id="section-modal" class="modal-backdrop" role="presentation" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-body">
+      <button id="modal-close" class="modal-close" type="button" aria-label="Close section">×</button>
+      <div id="modal-kicker" class="modal-kicker"></div>
+      <h2 id="modal-title"></h2>
+      <div id="modal-body" class="modal-body"></div>
+      <div class="modal-actions"><button class="button button-secondary" type="button" id="modal-close-bottom" onclick="document.getElementById('modal-close').click()">Close window</button><a class="button button-primary" href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+    </section>
+  </div>
 </body>
 </html>
