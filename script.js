@@ -60,15 +60,22 @@
         <p>I don’t present every item as an expert-level skill. I prefer to show what I’ve built, practiced, and learned.</p>`
     },
     projects: {
-      number: "08 / My projects", title: "Small builds. Real learning.",
+      number: "08 / My projects", title: "Four focused demos. One practical mindset.",
       html: `
-        <p>I’m building a project portfolio that shows how I think, how I organize code, and how I turn concepts into something testable.</p>
-        <h3>Mahesh OS — portfolio concept</h3><p>A personal portfolio inspired by a desktop interface. The project explores navigation, responsive layout, reusable content, and presenting technical interests with personality.</p>
-        <p><a href="https://github.com/mahesh-bhattarai-dev/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">View portfolio source on GitHub ↗</a></p>
-        <h3>Web Design learning archive</h3><p>A collection of front-end practice, web experiments, and exercises across HTML, CSS, JavaScript, Node.js, and SQL. It includes learning work rather than claiming to be a production application.</p>
+        <p>I’m organizing my portfolio around a small set of projects that demonstrate different skills. Each demo has a clear purpose, and I’m careful to distinguish working features from illustrative content.</p>
+        <h3>🏈 Steel City Sports — storefront demo</h3>
+        <p>A responsive sports-merchandise storefront with product pages, a sample cart, and a simulated checkout. Checkout does not process real payments.</p>
+        <p><a href="https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/" target="_blank" rel="noreferrer">Open live demo ↗</a> · <a href="https://github.com/mahesh-bhattarai-dev/Web-Design/tree/main/steel-city-sports" target="_blank" rel="noreferrer">View source ↗</a></p>
+        <h3>🍽️ TableTalk — restaurant review demo</h3>
+        <p>A restaurant-discovery concept with search, cuisine filters, and a front-end review form. Listings are illustrative and review content is not stored in a backend.</p>
+        <p><a href="https://mahesh-bhattarai-dev.github.io/Web-Design/restaurant-review-demo/" target="_blank" rel="noreferrer">Open live demo ↗</a> · <a href="https://github.com/mahesh-bhattarai-dev/Web-Design/tree/main/restaurant-review-demo" target="_blank" rel="noreferrer">View source ↗</a></p>
+        <h3>🇳🇵 Nepal Heritage — cultural website</h3>
+        <p>A multi-page exploration of Nepal’s festivals, foods, places, rituals, hospitality, and community values. The site is being prepared for publication.</p>
         <p><a href="https://github.com/mahesh-bhattarai-dev/Web-Design" target="_blank" rel="noreferrer">View Web-Design repository ↗</a></p>
-        <h3>Python desktop experiments</h3><p>I’m also exploring desktop interfaces with Python and Tkinter, using small projects to practice application structure and interaction design.</p>
-        <div class="content-panel"><strong>Project standard:</strong> explain the purpose, show the code, identify what works, and be transparent about what remains to improve.</div>`
+        <h3>🖥️ Mahesh OS — personal portfolio</h3>
+        <p>This site is the fourth piece: a playful, desktop-inspired introduction to my background, career direction, values, and approach to practical problem-solving.</p>
+        <p><a href="https://github.com/mahesh-bhattarai-dev/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">View portfolio source on GitHub ↗</a></p>
+        <div class="content-panel"><strong>Project standard:</strong> keep each demo focused, explain its limitations, and publish it when it is clear and usable—not when it has endless features.</div>`
     },
     connect: {
       number: "09 / Let’s connect", title: "Good work starts with a good conversation.",
