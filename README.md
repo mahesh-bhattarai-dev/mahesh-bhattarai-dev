@@ -18,7 +18,7 @@ A playful, desktop-inspired website presenting my professional background, techn
 
 ### 🏈 Steel City Sports — Interactive Storefront Demo
 
-**[Open the live website →](https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/)** · **[Browse the website source files →](https://github.com/mahesh-bhattarai-dev/Web-Design/tree/main/steel-city-sports)**
+**[Visit the live website →](https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/)**
 
 An updated version of a college web-design project, featuring team merchandise pages, responsive layouts, a sample shopping cart, and a demo checkout flow. The cart uses browser storage; checkout is simulated and **does not process real payments**.
 
