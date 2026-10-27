@@ -16,11 +16,17 @@ I earned a **B.S. in Information Technology from Penn State University** and an 
 
 A playful, desktop-inspired website presenting my professional background, technical interests, projects, and learning journey. It combines a creative interface with a practical overview of my IT skills.
 
+### 🏈 Steel City Sports — Interactive Storefront Demo
+
+**[Open the live website →](https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/)** · **[Browse the website source files →](https://github.com/mahesh-bhattarai-dev/Web-Design/tree/main/steel-city-sports)**
+
+An updated version of a college web-design project, featuring team merchandise pages, responsive layouts, a sample shopping cart, and a demo checkout flow. The cart uses browser storage; checkout is simulated and **does not process real payments**.
+
 ### 🇳🇵 Nepal Heritage — In Development
 
 A multi-page website celebrating Nepal's culture, festivals, traditional foods, places, rituals, hospitality, and community values.
 
-The site is built with HTML and organized into dedicated pages so visitors can explore cultural topics in a clear, accessible format. It is being prepared for online publication; a live link will be added once it is published.
+The site is built with HTML and organized into dedicated pages so visitors can explore cultural topics in a clear, accessible format. A live link will be added once it is published.
 
 ## Professional Focus
 
