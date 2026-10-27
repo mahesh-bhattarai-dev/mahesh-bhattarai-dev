@@ -22,6 +22,12 @@ A playful, desktop-inspired website presenting my professional background, techn
 
 An updated version of a college web-design project, featuring team merchandise pages, responsive layouts, a sample shopping cart, and a demo checkout flow. The cart uses browser storage; checkout is simulated and **does not process real payments**.
 
+### 🍽️ TableTalk — Restaurant Reviews Demo
+
+**[Visit the live website →](https://mahesh-bhattarai-dev.github.io/Web-Design/restaurant-review-demo/)**
+
+A responsive restaurant discovery concept built with HTML, CSS, and JavaScript. Includes restaurant search and cuisine filters, plus an interactive review form. Sample listings are illustrative; reviews are browser-session demo content only.
+
 ### 🇳🇵 Nepal Heritage — In Development
 
 A multi-page website celebrating Nepal's culture, festivals, traditional foods, places, rituals, hospitality, and community values.
