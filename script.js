@@ -60,21 +60,13 @@
         <p>I don’t present every item as an expert-level skill. I prefer to show what I’ve built, practiced, and learned.</p>`
     },
     projects: {
-      number: "08 / My projects", title: "Four focused demos. One practical mindset.",
+      number: "08 / Selected work", title: "Website demos built around practical ideas.",
       html: `
-        <p>I’m organizing my portfolio around a small set of projects that demonstrate different skills. Each demo has a clear purpose, and I’m careful to distinguish working features from illustrative content.</p>
-        <h3>🏈 Steel City Sports — storefront demo</h3>
-        <p>A responsive sports-merchandise storefront with product pages, a sample cart, and a simulated checkout. Checkout does not process real payments.</p>
-        <p><a href="https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/" target="_blank" rel="noreferrer">Open live demo ↗</a> · <a href="https://github.com/mahesh-bhattarai-dev/Web-Design/tree/main/steel-city-sports" target="_blank" rel="noreferrer">View source ↗</a></p>
-        <h3>🍽️ TableTalk — restaurant review demo</h3>
-        <p>A restaurant-discovery concept with search, cuisine filters, and a front-end review form. Listings are illustrative and review content is not stored in a backend.</p>
-        <p><a href="https://mahesh-bhattarai-dev.github.io/Web-Design/restaurant-review-demo/" target="_blank" rel="noreferrer">Open live demo ↗</a> · <a href="https://github.com/mahesh-bhattarai-dev/Web-Design/tree/main/restaurant-review-demo" target="_blank" rel="noreferrer">View source ↗</a></p>
-        <h3>🇳🇵 Nepal Heritage — cultural website</h3>
-        <p>A multi-page exploration of Nepal’s festivals, foods, places, rituals, hospitality, and community values. The site is being prepared for publication.</p>
-        <p><a href="https://github.com/mahesh-bhattarai-dev/Web-Design" target="_blank" rel="noreferrer">View Web-Design repository ↗</a></p>
-        <h3>🖥️ Mahesh OS — personal portfolio</h3>
-        <p>This site is the fourth piece: a playful, desktop-inspired introduction to my background, career direction, values, and approach to practical problem-solving.</p>
-        <p><a href="https://github.com/mahesh-bhattarai-dev/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">View portfolio source on GitHub ↗</a></p>
+        <p>These projects explore different kinds of website experiences—from a sports storefront to a cultural guide and restaurant concepts. Each live page has its own visual direction and a short story to tell.</p>
+        <h3>Steel City Sports</h3><p>A Pittsburgh sports storefront concept with team pages and a sample shopping flow. <a href="https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/" target="_blank" rel="noreferrer">Check this page ↗</a></p>
+        <h3>Nepal Heritage</h3><p>A multi-page introduction to Nepali festivals, food, places, customs, and values. <a href="https://mahesh-bhattarai-dev.github.io/Web-Design/nepal-heritage/" target="_blank" rel="noreferrer">Check this page ↗</a></p>
+        <h3>Himalayan Aangan</h3><p>A fictional Nepali and Indian restaurant demo with an interactive menu and sample cart. <a href="https://mahesh-bhattarai-dev.github.io/Web-Design/himalayan-aangan/" target="_blank" rel="noreferrer">Check this page ↗</a></p>
+        <h3>TableTalk</h3><p>A restaurant discovery and review concept with search and cuisine filters. <a href="https://mahesh-bhattarai-dev.github.io/Web-Design/restaurant-review-demo/" target="_blank" rel="noreferrer">Check this page ↗</a></p>
         <div class="content-panel"><strong>Project standard:</strong> keep each demo focused, explain its limitations, and publish it when it is clear and usable—not when it has endless features.</div>`
     },
     connect: {
@@ -94,6 +86,27 @@
         <p>There may be a latte nearby. There will probably be debugging. And if a project gets one feature more than it needs, well—that's part of the learning process. 😄</p>`
     }
   };
+
+  const navDropdown = document.querySelector(".nav-dropdown");
+  const navTrigger = document.querySelector(".nav-trigger");
+  if (navDropdown && navTrigger) {
+    navTrigger.addEventListener("click", () => {
+      const open = navDropdown.classList.toggle("is-open");
+      navTrigger.setAttribute("aria-expanded", String(open));
+    });
+    document.addEventListener("click", (event) => {
+      if (!navDropdown.contains(event.target)) {
+        navDropdown.classList.remove("is-open");
+        navTrigger.setAttribute("aria-expanded", "false");
+      }
+    });
+    navDropdown.querySelectorAll(".nav-item").forEach((item) => {
+      item.addEventListener("click", () => {
+        navDropdown.classList.remove("is-open");
+        navTrigger.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
 
   const modal = document.getElementById("section-modal");
   const modalTitle = document.getElementById("modal-title");
