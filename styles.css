@@ -223,3 +223,36 @@ body.modal-open { overflow: hidden; }
   .hero h1 { font-size:clamp(1.7rem,7vw,2.25rem); }
   .hero-image { aspect-ratio:16 / 9; }
 }
+
+
+/* Final homepage layout: no sidebar, full-width photographic banner */
+.app-shell { display:block; max-width:none; min-height:100vh; }
+.sidebar { display:none !important; }
+.main-content { width:min(1440px,100%); margin:0 auto; padding:32px clamp(20px,5vw,72px) 28px; }
+.hero {
+  display:flex;
+  min-height:390px;
+  align-items:center;
+  padding:clamp(30px,5vw,64px);
+  border:0;
+  border-radius:24px;
+  color:#fff;
+  background:
+    linear-gradient(90deg,rgba(12,22,38,.88) 0%,rgba(12,22,38,.72) 48%,rgba(12,22,38,.22) 100%),
+    url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=2000&q=90") center 48% / cover no-repeat;
+  box-shadow:var(--shadow);
+}
+.hero-copy { max-width:680px; }
+.hero .eyebrow { color:#d6e7ff; }
+.hero h1 { max-width:600px; margin:10px 0 14px; font-size:clamp(1.65rem,2.8vw,2.25rem); line-height:1.16; letter-spacing:-.045em; color:#fff; }
+.hero h1 span { color:#c7e0ff; }
+.hero-lead { max-width:560px; color:rgba(255,255,255,.9); font-size:.96rem; line-height:1.7; }
+.hero .button-secondary { color:#fff; border-color:rgba(255,255,255,.55); background:rgba(255,255,255,.12); }
+.hero .button-primary { background:#fff; color:#203b5e; }
+.hero-image { display:none !important; }
+@media (max-width:760px) {
+  .main-content { padding:18px 14px 22px; }
+  .hero { min-height:340px; padding:26px 21px; border-radius:19px; background-position:58% center; }
+  .hero h1 { font-size:clamp(1.55rem,6vw,1.95rem); }
+  .hero-lead { font-size:.9rem; }
+}
