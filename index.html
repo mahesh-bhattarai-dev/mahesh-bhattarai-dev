@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Mahesh Bhattarai's portfolio: information technology, systems thinking, projects, learning, and creative problem-solving.">
   <meta name="theme-color" content="#f8f3e8">
-  <title>Mahesh Bhattarai | Curious Mind, Creative Builds</title>
+  <title>Mahesh Bhattarai | IT & Systems Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -18,10 +18,11 @@
     <aside class="sidebar" aria-label="Portfolio sidebar">
       <a class="brand" href="#overview" aria-label="Mahesh Bhattarai portfolio home">
         <span class="brand-mark" aria-hidden="true">M</span>
-        <span><span class="brand-name">Mahesh Bhattarai</span><span class="brand-subtitle">IT · Systems · Creative builds</span></span>
+        <span><span class="brand-name">Mahesh Bhattarai</span><span class="brand-subtitle">IT · Systems · Data</span></span>
       </a>
-      <div class="nav-label">Explore my world</div>
-      <nav class="nav-list" aria-label="Main navigation">
+      <div class="nav-label">Navigation</div>
+      <div class="nav-dropdown"><button class="nav-trigger" type="button" aria-expanded="false" aria-controls="main-navigation">Explore sections <span aria-hidden="true">⌄</span></button>
+      <nav class="nav-list" id="main-navigation" aria-label="Main navigation">
         <button class="nav-item" type="button" data-nav="overview" aria-current="page"><span class="nav-icon" aria-hidden="true">⌂</span> Overview</button>
         <button class="nav-item" type="button" data-nav="about"><span class="nav-icon" aria-hidden="true">☻</span> About me</button>
         <button class="nav-item" type="button" data-nav="career"><span class="nav-icon" aria-hidden="true">▤</span> Career</button>
@@ -34,6 +35,7 @@
         <button class="nav-item" type="button" data-nav="connect"><span class="nav-icon" aria-hidden="true">↗</span> Let's connect</button>
         <button class="nav-item" type="button" data-nav="ideas"><span class="nav-icon" aria-hidden="true">☕</span> The Idea Lab</button>
       </nav>
+      </div>
       <div class="sidebar-note"><strong>Current operating principle</strong>Understand the problem. Choose a practical approach. Explain the result clearly.</div>
       <div class="sidebar-links"><a href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://github.com/mahesh-bhattarai-dev/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">Source code ↗</a></div>
     </aside>
@@ -43,10 +45,10 @@
       <section id="overview" aria-labelledby="hero-title">
         <div class="hero">
           <div class="hero-copy">
-            <div class="eyebrow">Curious mind · Practical builder</div>
-            <h1 id="hero-title">Curious Mind.<br><span>Creative Builds.</span></h1>
+            <div class="eyebrow">IT professional · Systems & operations</div>
+            <h1 id="hero-title">Practical technology.<br><span>Clear solutions.</span></h1>
             <p class="hero-lead">I connect technical problem-solving with clear documentation and practical business needs. My interests span systems analysis, IT operations, data, and application development.</p>
-            <p class="hero-joke">I take the work seriously. The number of features in my side projects? That's a separate discussion. 😄</p>
+            <p class="hero-joke">B.S. in Information Technology · A.S. in Software Development</p>
             <div class="hero-actions">
               <button class="button button-primary" type="button" data-section="projects">Explore my projects <span aria-hidden="true">↘</span></button>
               <a class="button button-secondary" href="https://github.com/mahesh-bhattarai-dev" target="_blank" rel="noreferrer">Visit GitHub ↗</a>
@@ -65,7 +67,7 @@
         </div>
       </section>
 
-      <div class="section-heading"><div><div class="eyebrow">The quick tour</div><h2>A few windows into my world</h2></div><p>Professional interests up front, creative details around the edges. Pick a card to open a little more.</p></div>
+      <div class="section-heading"><div><div class="eyebrow">The quick tour</div><h2>Professional background & interests</h2></div><p>Explore my background, technical interests, and approach to practical problem-solving.</p></div>
       <section class="card-grid" aria-label="Portfolio sections">
         <button class="feature-card tone-blue" type="button" data-section="about"><span class="card-top"><span class="card-icon" aria-hidden="true">☻</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>About me</h3><p>My background, education, and how I approach problems.</p><span class="card-tag">The person behind the projects</span></button>
         <button class="feature-card tone-peach" type="button" data-section="career"><span class="card-top"><span class="card-icon" aria-hidden="true">▤</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Career direction</h3><p>Systems, IT operations, data, and application support.</p><span class="card-tag">Where I can contribute</span></button>
@@ -78,7 +80,15 @@
         <button class="feature-card tone-mint" type="button" data-section="connect"><span class="card-top"><span class="card-icon" aria-hidden="true">↗</span><span class="card-arrow" aria-hidden="true">↗</span></span><h3>Let's connect</h3><p>Explore my work or start a conversation about useful tech.</p><span class="card-tag">Open to good conversations</span></button>
       </section>
 
-      <div class="section-heading"><div><div class="eyebrow">A few fundamentals</div><h2>What I bring to the table</h2></div></div>
+      <section id="projects-showcase" class="project-showcase" aria-labelledby="project-showcase-title">
+<div class="section-heading"><div><div class="eyebrow">Selected website demos</div><h2 id="project-showcase-title">A closer look at the work.</h2></div><p>Four different ideas, each with its own look and purpose. Take a quick preview, then open the live page.</p></div>
+<div class="project-grid">
+<article class="project-card"><a class="project-image" href="https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1000&q=80" alt="Athlete running on a track"></a><div class="project-copy"><span class="project-type">SPORTS · E-COMMERCE</span><h3>Steel City Sports</h3><p>A local sports storefront concept with team spirit, product browsing, and a few interactive shopping touches.</p><a class="project-link" href="https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/" target="_blank" rel="noreferrer">Check this page <span>↗</span></a></div></article>
+<article class="project-card"><a class="project-image" href="https://mahesh-bhattarai-dev.github.io/Web-Design/nepal-heritage/" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80" alt="Himalayan mountain landscape in Nepal"></a><div class="project-copy"><span class="project-type">CULTURE · MULTI-PAGE</span><h3>Nepal Heritage</h3><p>A welcoming journey through the traditions, flavors, celebrations, and places that shape Nepali culture.</p><a class="project-link" href="https://mahesh-bhattarai-dev.github.io/Web-Design/nepal-heritage/" target="_blank" rel="noreferrer">Check this page <span>↗</span></a></div></article>
+<article class="project-card"><a class="project-image" href="https://mahesh-bhattarai-dev.github.io/Web-Design/himalayan-aangan/" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=80" alt="A table of colorful dishes"></a><div class="project-copy"><span class="project-type">RESTAURANT · INTERACTIVE MENU</span><h3>Himalayan Aangan</h3><p>A fictional restaurant experience pairing familiar favorites with Nepali dishes and a hands-on menu.</p><a class="project-link" href="https://mahesh-bhattarai-dev.github.io/Web-Design/himalayan-aangan/" target="_blank" rel="noreferrer">Check this page <span>↗</span></a></div></article>
+<article class="project-card"><a class="project-image" href="https://mahesh-bhattarai-dev.github.io/Web-Design/restaurant-review-demo/" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80" alt="Restaurant table set for dining"></a><div class="project-copy"><span class="project-type">DISCOVERY · COMMUNITY REVIEWS</span><h3>TableTalk</h3><p>A restaurant discovery concept where search, cuisine filters, and community recommendations meet.</p><a class="project-link" href="https://mahesh-bhattarai-dev.github.io/Web-Design/restaurant-review-demo/" target="_blank" rel="noreferrer">Check this page <span>↗</span></a></div></article>
+</div></section>
+<div class="section-heading"><div><div class="eyebrow">A few fundamentals</div><h2>What I bring to the table</h2></div></div>
       <section class="quick-facts" aria-label="Professional snapshot">
         <div class="fact"><strong>Information Technology</strong><span>Penn State University College · B.S. · 2025</span></div>
         <div class="fact"><strong>Software Development</strong><span>Community College of Allegheny County · A.S.</span></div>
