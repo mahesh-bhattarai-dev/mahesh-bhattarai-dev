@@ -139,9 +139,9 @@
     button.addEventListener("click", () => openSection(button.dataset.section));
   });
 
-  document.querySelectorAll(".nav-item[data-nav]").forEach((button) => {
+  document.querySelectorAll("[data-nav]").forEach((button) => {
     button.addEventListener("click", () => {
-      document.querySelectorAll(".nav-item[data-nav]").forEach((item) => item.removeAttribute("aria-current"));
+      document.querySelectorAll("[data-nav]").forEach((item) => item.removeAttribute("aria-current"));
       button.setAttribute("aria-current", "page");
       if (button.dataset.nav === "overview") {
         closeModal();
