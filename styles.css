@@ -256,3 +256,18 @@ body.modal-open { overflow: hidden; }
   .hero h1 { font-size:clamp(1.55rem,6vw,1.95rem); }
   .hero-lead { font-size:.9rem; }
 }
+
+
+/* Simple, visible navigation — no hover dropdowns */
+.site-header { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:0 0 22px; margin-bottom:22px; border-bottom:1px solid var(--line); }
+.site-brand { display:flex; align-items:center; gap:10px; color:var(--ink); font-weight:800; letter-spacing:-.035em; text-decoration:none; white-space:nowrap; }
+.site-brand-mark { display:grid; place-items:center; width:36px; height:36px; border-radius:11px; background:var(--blue); color:#284e7e; }
+.top-nav { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:7px; }
+.top-nav a, .top-nav button { border:0; border-radius:9px; padding:8px 11px; background:transparent; color:#566174; font-size:.84rem; font-weight:650; text-decoration:none; cursor:pointer; }
+.top-nav a:hover, .top-nav button:hover { background:#edf3fa; color:#274c79; }
+.top-nav a:focus-visible, .top-nav button:focus-visible { outline:2px solid #4978b8; outline-offset:2px; }
+@media (max-width:760px) {
+ .site-header { align-items:flex-start; flex-direction:column; gap:12px; padding-bottom:15px; }
+ .top-nav { justify-content:flex-start; gap:3px; }
+ .top-nav a, .top-nav button { padding:7px 9px; font-size:.8rem; }
+}
