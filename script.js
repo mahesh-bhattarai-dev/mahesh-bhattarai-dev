@@ -7,6 +7,7 @@
       html: `
         <p>I’m an Information Technology graduate who enjoys understanding how systems work, organizing information, and making technical ideas easier to use.</p>
         <p>I earned a <strong>B.S. in Information Technology from Penn State University College</strong> (August 2025) and an <strong>A.S. in Software Development from CCAC</strong>. My academic work gave me a foundation in programming, databases, networking, and technical problem-solving.</p>
+        <p>My professional experience includes healthcare compliance and data integrity, home-care support, a quality-improvement internship with Allegheny County Juvenile Probation, and peer tutoring in programming and IT subjects. These experiences strengthened my attention to detail, documentation, communication, and ability to explain technical ideas clearly.</p>
         <div class="content-panel"><strong>My working style</strong><p>Start with the actual problem. Check the details. Build or document a practical solution. Be honest about what is finished and what still needs work.</p></div>
         <p>I like a portfolio with a little personality, but I keep the focus on work, curiosity, and useful technology.</p>`
     },
