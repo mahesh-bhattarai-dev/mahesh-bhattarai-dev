@@ -1,51 +1,68 @@
 # Mahesh Bhattarai
-### IT Professional | Systems Analysis • IT Operations • Data & Development
 
-I connect technical problem-solving with clear documentation and practical business needs. My interests span systems analysis, IT operations, data, and application development.
+**Pittsburgh, PA** · [LinkedIn](https://www.linkedin.com/in/mahesh-bhattarai/) · [GitHub](https://github.com/mahesh-bhattarai-dev) · [Portfolio](https://mahesh-bhattarai-dev.github.io/)
 
-I earned a **B.S. in Information Technology from Penn State University** and an **A.S. in Software Development from CCAC**. I build practical projects to explore how technology can make information easier to access, workflows easier to understand, and everyday experiences more useful.
+## Professional Summary
 
-**Working style:** Understand the problem. Choose a practical approach. Explain the result clearly.
+Entry-level Data Analyst with hands-on experience using SQL, Python, and Power BI to analyze operational, sales, and system data. Strong skills in data cleaning, KPI reporting, dashboard development, and translating data into clear business insights. Proven ability to work with structured datasets and support data-driven decision-making.
 
-## Portfolio
+## Education
 
-**[Visit my portfolio website →](https://mahesh-bhattarai-dev.github.io/)**
+**The Pennsylvania State University** — Pittsburgh, PA  
+B.S. in Information Sciences & Technology · GPA: 3.92 · August 2025
 
-A desktop-inspired professional portfolio featuring my background, technical interests, and selected live projects.
+**Community College of Allegheny County** — Pittsburgh, PA  
+A.S. in Software Development · GPA: 4.00 · May 2022
 
-### Selected Projects
+## Technical Skills
 
-| Project | What it demonstrates | Live demo |
-|---|---|---|
-| **Nepal Heritage** | Multi-page cultural guide covering festivals, food, places, rituals, and community values | [Explore Nepal Heritage](https://mahesh-bhattarai-dev.github.io/Web-Design/nepal-heritage/) |
-| **Himalayan Aangan** | Fictional Nepali and Indian restaurant website with menu categories, interactive ordering/cart experience, and responsive layout | [Explore Himalayan Aangan](https://mahesh-bhattarai-dev.github.io/Web-Design/himalayan-aangan/) |
-| **TableTalk** | Restaurant discovery concept with search, cuisine filters, and a review interface | [Explore TableTalk](https://mahesh-bhattarai-dev.github.io/Web-Design/restaurant-review-demo/) |
-| **Steel City Sports** | Pittsburgh sports storefront concept with team pages, product browsing, and a simulated shopping flow | [Explore Steel City Sports](https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/) |
-| **CodeShelf** | Topic-based learning library with HTML, CSS, JavaScript, Bootstrap, SQL, Node.js, and jQuery examples | [Explore CodeShelf](https://mahesh-bhattarai-dev.github.io/Web-Design/) |
+- **Data Analysis:** SQL (joins, aggregations, subqueries), Python (Pandas, NumPy), data cleaning, KPI reporting
+- **BI & Visualization:** Power BI (interactive dashboards, basic DAX), trend analysis
+- **Databases:** MySQL, MariaDB
+- **Tools:** Git, Linux, Splunk
 
-*These are portfolio demonstrations. Restaurant listings, shopping carts, reviews, and checkout flows use sample or browser-side data; they are not connected to live business, payment, or inventory systems.*
+## Work Experience
 
-## Professional Focus
+**Home Health Aide — Smile Home Care**  
+July 2023 – Present
 
-- **Systems & IT Operations** — troubleshooting, understanding workflows, and documenting processes
-- **Data & Databases** — SQL practice, relational database concepts, and structured analysis
-- **Application Development** — Java, JavaScript, Python learning projects, and web fundamentals
-- **Technical Foundations** — Linux fundamentals and hands-on networking/security lab experience
+- Assist clients with daily living activities to support safety and independence.
+- Maintain accurate documentation and follow care plans.
+- Communicate with clients and supervisors to support quality service.
 
-## Code & Learning Archive
+**CQI Intern — Allegheny County Juvenile Probation**  
+May 2025 – August 2025
 
-[Web-Design repository](https://github.com/mahesh-bhattarai-dev/Web-Design) — source code for the live website demos above, alongside coursework, practice exercises, and experiments in HTML, CSS, JavaScript, Node.js, and SQL.
+- Supported data-driven process improvement initiatives.
+- Helped automate digital checklists and forms to reduce manual data entry.
+- Assisted with internal reporting and documentation workflows.
 
-## How I Work
+**Peer Tutor — The Pennsylvania State University**  
+March 2024 – May 2025
 
-- Start with the problem and the people affected by it.
-- Keep code and documentation understandable.
-- Separate implemented features from future improvements.
-- Be honest about limitations and verify results.
-- Keep learning without confusing a long list of technologies with real capability.
+- Guided students through debugging and troubleshooting programming assignments.
+- Delivered tutoring sessions covering Java, object-oriented programming, data structures, and algorithms.
+- Explained technical concepts in clear, accessible ways.
 
-I like useful technology, clean explanations, and creative problem-solving. A little humor is welcome; confusing documentation is not.
+## Projects
+
+**[CodeShelf — Web Development Learning Platform](https://mahesh-bhattarai-dev.github.io/Web-Design/)**
+
+- Built a structured learning website covering HTML, CSS, JavaScript, Bootstrap, SQL, Node.js, and jQuery.
+- Organized programming topics, examples, and learning resources into dedicated sections.
+
+**[Steel City Sports — E-Commerce Storefront Demo](https://mahesh-bhattarai-dev.github.io/Web-Design/steel-city-sports/)**
+
+- Developed a sports merchandise storefront featuring product browsing, a sample shopping cart, and simulated checkout functionality.
+
+**[Himalayan Aangan — Restaurant Website](https://mahesh-bhattarai-dev.github.io/Web-Design/himalayan-aangan/)**
+
+- Designed and developed a restaurant website showcasing its identity, offerings, and online presence.
+
+**[Nepal Heritage — Cultural Website](https://mahesh-bhattarai-dev.github.io/Web-Design/nepal-heritage/)**
+
+- Developed a multi-page website highlighting Nepali culture, traditions, festivals, and places through organized content and web design.
 
 ---
 
-*Practical solutions. Clear documentation. Curiosity included.*
+*Focused on practical analysis, clear communication, and useful technology.*
