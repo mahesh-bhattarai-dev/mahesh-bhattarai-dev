@@ -1,6 +1,6 @@
 # Mahesh Bhattarai
 
-**Pittsburgh, PA** · [LinkedIn](https://www.linkedin.com/in/mahesh-bhattarai/) · [GitHub](https://github.com/mahesh-bhattarai-dev) · [Portfolio](https://mahesh-bhattarai-dev.github.io/)
+**Pittsburgh, PA** · [LinkedIn](https://www.linkedin.com/in/mahesh-bhattarai/) · [GitHub](https://github.com/mahesh-bhattarai-dev) · [Portfolio](https://mahesh-bhattarai-dev.github.io/mahesh-bhattarai-dev/)
 
 ## Professional Summary
 
